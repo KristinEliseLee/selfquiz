@@ -1,0 +1,21 @@
+Q - Do birds fly?
+1 - Yes
+2 - No
+3 - Sometimes
+A - Sometimes - Penguins and seagulls
+---
+Q - Is a kiwi a mammal?
+1 - No, it's a bird
+2 - No, it's a fruit
+3 - Yes, it's a New Zealand Human
+4 - All of the above
+A - Kiwi is the name for both a bird and a fruit, and also for people from NZ
+---
+Q - this is a multi line question
+Q - see, look, multiple lines
+Q - FANCY
+1 - Yup, fancy
+2 - Super fancy
+A - 2 - Super fancy
+A - see how fancy this is?
+--- (always make sure questions end in this triple dash)
