@@ -20,7 +20,7 @@ def loadQuestions(fileName):
             if line[0] == 'Q':
                 # for multi-line questions, each line must start with Q, same with answer
                 text += line[4:]
-            elif line[0] == 'A':
+            elif line[0] == 'R':
                 answer += line[4:]
             elif line[:3] != '---':
                 options.append(line.rstrip())
@@ -75,6 +75,11 @@ def askQuestions(qlist):
 
         print(q.answer)
         selection = input().lower()
+        if selection == 'quit':
+            return 'quit'
+        if selection == "menu":
+            return 'menu'
+
 
     print('Asked all questions. Returning to main menu')
     return selection
