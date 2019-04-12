@@ -16,6 +16,6 @@ Q - see, look, multiple lines
 Q - FANCY
 1 - Yup, fancy
 2 - Super fancy
-A - 2 - Super fancy
+R - 2 - Super fancy
 R - see how fancy this is?
 --- (always make sure questions end in this triple dash)
